@@ -1,3 +1,4 @@
+package clases;
 
 /**
  * 
@@ -23,7 +24,7 @@ public class TrianguloRectangulo {
 	 * @param catetoB
 	 */
 	public TrianguloRectangulo(int catetoA, int catetoB) {
-		if(catetoA<=0 ||b<=0) throw new IllegalArgumentException();
+		if(catetoA<=0 || catetoB<=0) throw new IllegalArgumentException();
 		this.a= catetoA;
 		this.b=catetoB;
 	}
@@ -81,6 +82,7 @@ public class TrianguloRectangulo {
 		return res;
 		
 	}
+	
 	
 	
 		
